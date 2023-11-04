@@ -1,1 +1,5 @@
-this is test
+- name: Fanap OS check
+  hosts:
+    - 192.168.242.155
+  roles:
+    - check_server
